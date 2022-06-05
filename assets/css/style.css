@@ -1,3 +1,8 @@
+.responsive{
+  width: 100%;
+  height: auto;
+}
+
 .ncc{
   width: 100%;
   position: relative;
@@ -410,19 +415,21 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: calc(100vh);
   background-color: rgba(60, 60, 60, 0.8);
   overflow: hidden;
  
 }
 #hero .carousel, #hero .carousel-inner, #hero .carousel-item, #hero .carousel-item::before {
   position: absolute;
-  top: 0;
+  top: 30px;
   right: 0;
   left: 0;
   bottom: 0;
+  
 }
 #hero .carousel-item {
+  top: 30px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
