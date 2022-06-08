@@ -5,6 +5,5 @@ deployment:
         - /bin/cp index.html $DEPLOYPATH #Copy specific file to destination from root
         - /bin/cp Readme.txt $DEPLOYPATH #Copy specific file to destination from root
         - /bin/cp inner-page.html $DEPLOYPATH #Copy specific file to destination from root
-        - /bin/cp -r /assets/* $DEPLOYPATH #copy all from sub folder root
-        - /bin/cp -R assets $DEPLOYPATH #copy all the files in the asset folder recursively.
-        - /bin/cp * $DEPLOYPATH #copy everything.
+        - /bin/cp -R assets $DEPLOYPATH #copy all from sub folder root
+        - /bin/cp -R forms $DEPLOYPATH #copy forms folder.
