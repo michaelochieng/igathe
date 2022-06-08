@@ -1,0 +1,6 @@
+---
+deployment:
+  task:
+    - export DEPLOYPATH=/home/occident/igathe.occidentaltravelhouse.co.ke/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
