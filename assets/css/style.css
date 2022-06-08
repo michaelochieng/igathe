@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 #hero .carousel-item {
-  top: 30px;
+  top: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -713,9 +713,8 @@ section {
 .cta {
  background-image: url("/assets/img/nai_night.jpg");
   color: #fff;
-  background-size: cover;
   padding: 60px 0;
-  background-size: 95% 180%;
+  background-position-y: 40%;
   height: 7cm;
   display: flex;
   }
@@ -736,10 +735,11 @@ section {
   border: 2px solid #fff;
   color: #fff;
   position: relative;
+  background-color: #000000;
 }
 .cta .cta-btn:hover {
   background: #fff;
-  color: #3fbbc0;
+  color: #000000;
 }
 
 /*--------------------------------------------------------------
