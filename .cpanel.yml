@@ -1,6 +1,8 @@
 ---
 deployment:
-  task:
-    - export DEPLOYPATH=/home/occident/igathe.occidentaltravelhouse.co.ke/
-    - /bin/cp index.html $DEPLOYPATH
-    - /bin/cp -R assets $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/occident/igathe.occidentaltravelhouse.co.ke/
+        - /bin/cp index.html $DEPLOYPATH #Copy specific file to destination from root
+        - /bin/cp Readme.txt $DEPLOYPATH #Copy specific file to destination from root
+        - /bin/cp inner-page.html $DEPLOYPATH #Copy specific file to destination from root
+        - /bin/cp -r /assets/* $DEPLOYPATH #copy all from sub folder root
